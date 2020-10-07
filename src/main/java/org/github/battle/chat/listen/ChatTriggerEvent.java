@@ -28,7 +28,7 @@ public final class ChatTriggerEvent implements Listener {
           chatInformation
         );
 
-        if(interceptorObject.isIntercepted()) {
+        if (interceptorObject.isIntercepted()) {
             player.sendMessage(interceptorObject.getCauseIntercept());
             event.setCancelled(true);
             return;

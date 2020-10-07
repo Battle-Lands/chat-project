@@ -9,7 +9,7 @@ public final class DoubleSpaceInterceptor implements ChatInterceptor {
     @Override
     public boolean checkInterceptor(ChatInterceptorObject interceptorObject) {
         final Player player = interceptorObject.getPlayer();
-        if(player.hasPermission("battle.lands.space")) {
+        if (player.hasPermission("battle.lands.space")) {
             final StringBuilder information = interceptorObject.getInformation();
 
             //Set spaces

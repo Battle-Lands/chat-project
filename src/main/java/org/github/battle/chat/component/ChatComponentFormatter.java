@@ -5,5 +5,5 @@ import org.bukkit.entity.Player;
 
 public interface ChatComponentFormatter {
 
-   String buildComponentInformation(Player player, @NonNull String message);
+    String buildComponentInformation(Player player, @NonNull String message);
 }

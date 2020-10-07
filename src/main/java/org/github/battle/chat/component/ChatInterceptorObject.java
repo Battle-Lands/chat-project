@@ -13,6 +13,8 @@ public final class ChatInterceptorObject {
     private final String message;
     private final StringBuilder information;
 
-    @Setter private String causeIntercept;
-    @Setter private boolean isIntercepted;
+    @Setter
+    private String causeIntercept;
+    @Setter
+    private boolean isIntercepted;
 }

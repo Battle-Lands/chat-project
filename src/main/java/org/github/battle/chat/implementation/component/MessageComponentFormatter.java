@@ -4,7 +4,6 @@ import lombok.NonNull;
 import org.bukkit.entity.Player;
 import org.github.battle.chat.component.ChatComponentFormatter;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public final class MessageComponentFormatter implements ChatComponentFormatter {

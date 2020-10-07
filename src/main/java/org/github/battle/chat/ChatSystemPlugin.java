@@ -2,8 +2,8 @@ package org.github.battle.chat;
 
 import com.github.battle.core.plugin.PluginCore;
 import org.github.battle.chat.command.ProfileCommand;
-import org.github.battle.chat.implementation.component.ChannelComponentFormatter;
 import org.github.battle.chat.entity.ChatEntityManager;
+import org.github.battle.chat.implementation.component.ChannelComponentFormatter;
 import org.github.battle.chat.implementation.component.MessageComponentFormatter;
 import org.github.battle.chat.implementation.component.PlayerComponentFormatter;
 import org.github.battle.chat.implementation.component.SpecialTagComponentFormatter;

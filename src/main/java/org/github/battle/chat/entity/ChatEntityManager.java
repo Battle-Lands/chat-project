@@ -15,6 +15,7 @@ public final class ChatEntityManager {
 
     private final List<ChatComponentFormatter> chatComponentFormatters;
     private final List<ChatInterceptor> chatInterceptors;
+
     public ChatEntityManager() {
         this.chatComponentFormatters = new ArrayList<>();
         this.chatInterceptors = new ArrayList<>();
@@ -41,7 +42,7 @@ public final class ChatEntityManager {
             final boolean interceptor = chatInterceptor.checkInterceptor(interceptorObject);
             interceptorObject.setIntercepted(interceptor);
 
-            if(interceptor) return interceptorObject;
+            if (interceptor) return interceptorObject;
         }
 
         return interceptorObject;
@@ -51,7 +52,7 @@ public final class ChatEntityManager {
         final StringBuilder stringBuilder = new StringBuilder();
         for (ChatComponentFormatter chatComponentFormatter : chatComponentFormatters) {
             final String componentInformation = chatComponentFormatter.buildComponentInformation(player, message);
-            if(componentInformation == null || componentInformation.isEmpty()) continue;
+            if (componentInformation == null || componentInformation.isEmpty()) continue;
 
             stringBuilder.append(componentInformation).append("§r ");
         }
