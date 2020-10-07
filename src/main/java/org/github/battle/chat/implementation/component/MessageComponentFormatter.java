@@ -14,7 +14,8 @@ public final class MessageComponentFormatter implements ChatComponentFormatter {
 
     @Override
     public String buildComponentInformation(Player player, @NonNull String message) {
-        final Matcher matcher = compiledPatternMention.matcher(message);
-        return matcher.replaceAll("§e$0§r");
+        return compiledPatternMention
+          .matcher(message)
+          .replaceAll("§e$0§r");
     }
 }
