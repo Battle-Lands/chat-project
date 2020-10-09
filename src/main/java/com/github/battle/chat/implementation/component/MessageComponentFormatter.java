@@ -1,8 +1,8 @@
-package org.github.battle.chat.implementation.component;
+package com.github.battle.chat.implementation.component;
 
+import com.github.battle.chat.component.ChatComponentFormatter;
 import lombok.NonNull;
 import org.bukkit.entity.Player;
-import org.github.battle.chat.component.ChatComponentFormatter;
 
 import java.util.regex.Pattern;
 

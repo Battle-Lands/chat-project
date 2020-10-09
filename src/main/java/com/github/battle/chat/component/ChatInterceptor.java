@@ -1,4 +1,4 @@
-package org.github.battle.chat.component;
+package com.github.battle.chat.component;
 
 public interface ChatInterceptor {
 

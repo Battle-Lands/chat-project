@@ -1,7 +1,7 @@
-package org.github.battle.chat.implementation.intercept;
+package com.github.battle.chat.implementation.intercept;
 
-import org.github.battle.chat.component.ChatInterceptor;
-import org.github.battle.chat.component.ChatInterceptorObject;
+import com.github.battle.chat.component.ChatInterceptor;
+import com.github.battle.chat.component.ChatInterceptorObject;
 
 public final class ChatDeactivatedInterceptor implements ChatInterceptor {
 

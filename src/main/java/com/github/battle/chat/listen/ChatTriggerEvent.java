@@ -1,12 +1,12 @@
-package org.github.battle.chat.listen;
+package com.github.battle.chat.listen;
 
 import lombok.RequiredArgsConstructor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
-import org.github.battle.chat.component.ChatInterceptorObject;
-import org.github.battle.chat.entity.ChatEntityManager;
+import com.github.battle.chat.component.ChatInterceptorObject;
+import com.github.battle.chat.entity.ChatEntityManager;
 
 @RequiredArgsConstructor
 public final class ChatTriggerEvent implements Listener {

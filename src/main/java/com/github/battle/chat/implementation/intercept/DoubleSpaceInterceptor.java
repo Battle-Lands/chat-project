@@ -1,8 +1,8 @@
-package org.github.battle.chat.implementation.intercept;
+package com.github.battle.chat.implementation.intercept;
 
+import com.github.battle.chat.component.ChatInterceptor;
+import com.github.battle.chat.component.ChatInterceptorObject;
 import org.bukkit.entity.Player;
-import org.github.battle.chat.component.ChatInterceptor;
-import org.github.battle.chat.component.ChatInterceptorObject;
 
 public final class DoubleSpaceInterceptor implements ChatInterceptor {
 

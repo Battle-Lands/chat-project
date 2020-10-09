@@ -1,9 +1,9 @@
-package org.github.battle.chat.implementation.component;
+package com.github.battle.chat.implementation.component;
 
+import com.github.battle.chat.component.ChatComponentFormatter;
 import lombok.NonNull;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
-import org.github.battle.chat.component.ChatComponentFormatter;
 
 public final class SpecialTagComponentFormatter implements ChatComponentFormatter {
 

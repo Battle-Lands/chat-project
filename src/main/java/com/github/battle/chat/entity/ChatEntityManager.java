@@ -1,10 +1,10 @@
-package org.github.battle.chat.entity;
+package com.github.battle.chat.entity;
 
+import com.github.battle.chat.component.ChatComponentFormatter;
+import com.github.battle.chat.component.ChatInterceptor;
+import com.github.battle.chat.component.ChatInterceptorObject;
 import lombok.Getter;
 import org.bukkit.entity.Player;
-import org.github.battle.chat.component.ChatComponentFormatter;
-import org.github.battle.chat.component.ChatInterceptor;
-import org.github.battle.chat.component.ChatInterceptorObject;
 
 import java.util.ArrayList;
 import java.util.Collections;

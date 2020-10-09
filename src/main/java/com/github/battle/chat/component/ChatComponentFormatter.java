@@ -1,4 +1,4 @@
-package org.github.battle.chat.component;
+package com.github.battle.chat.component;
 
 import lombok.NonNull;
 import org.bukkit.entity.Player;
