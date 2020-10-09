@@ -1,4 +1,4 @@
-main: org.github.battle.chat.ChatSystemPlugin
+main: com.github.battle.chat.ChatSystemPlugin
 version: 1.0.0
 author: zkingboos_
 name: BattleSystemChat
